@@ -1,0 +1,214 @@
+.body {
+  background-color: gray;
+}
+
+.card {
+  border: 1px solid rgb(39, 29, 29);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5pxx black(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 60%;
+  max-height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: green;
+}
+
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 62%, 37%);
+}
+
+.button {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 62%, 37%);
+}
+
+.student p {
+  margin: 0;
+  color: blue;
+}
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(200, 100%, 50%);
+  margin-bottom: 10px;
+  border: 3px solid;
+  text-align: center;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: hsl(5, 21%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 62%, 37%);
+  cursor: pointer;
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 0px 5px;
+  background-color: hsl(161, 70%, 45%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: hsl(161, 70%, 25%);
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50x;
+  padding: 5px;
+}
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.add-button {
+  background-color: green;
+}
+
+.add-button:hover {
+  background-color: darkgreen;
+}
+
+.delete-button {
+  background-color: red;
+}
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.move-button {
+  background-color: gray;
+}
+.move-button:hover {
+  background-color: salmon;
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: black;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+.delete-button,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+}
+
+.box {
+  border: 3px solid;
+  padding: 25px;
+}
